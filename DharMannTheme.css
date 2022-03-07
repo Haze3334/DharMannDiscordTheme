@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+    scrollbar-base-color: green;
+    scrollbar-face-color: green;
+    scrollbar-color: green;
+    scrollbar-width: 150px;
+    scrollbar-highlight-color: green;
+    background-image: url(https://www.dharmann.com/wp-content/uploads/2019/11/Dhar-Mann-quote-about-life.jpg);
+    text-align:  cente;
+    caret-color: purple;
+    border-right-color: pink;
+    border-left-color: yellow;
+    border-bottom-color: rgb(37, 49, 37);
+    border-top-color: purple;
+    cursor: nw-resize;
+    -webkit-text-fill-color: rgb(238, 138, 24);
+}
+
+::selection{
+    background: purple;
+    -webkit-text-fill-color: greenyellow;
+    cursor: progress;
+}
+
+::grammar-error{
+    -webkit-text-fill-color: rgba(90, 219, 78, 0.541);
+
+}
+
